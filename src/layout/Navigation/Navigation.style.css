@@ -1,0 +1,40 @@
+.Navigation{
+  display: flex;
+  flex-direction: column;
+  gap:100px;
+  margin: 0;
+  padding: 30px;
+}
+
+#Navigation-Title{
+  font-size: 14px;
+  font-weight: 600;
+  color: #090F31
+}
+
+#Navigation-Title span{
+  color: #F7542E;
+}
+
+#Navigation-List{
+  display: flex;
+  flex-direction: column;
+  gap:25px;
+  padding: 0;
+}
+
+#Navigation-List .Item{
+  list-style: none;
+}
+
+#Navigation-List .Item .Link {
+  text-decoration: none;
+  color: #9E9E9E;
+  transition: 0.2s;
+}
+
+#Navigation-List .Item .Link:hover,
+#Navigation-List .Item .Link.selected
+{
+  color: #090F31;
+}
